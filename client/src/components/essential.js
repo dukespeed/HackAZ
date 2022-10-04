@@ -6,7 +6,7 @@ export default function Essential() {
  return (
    <div className="section">
     
-    <p id="essential-section" class="scroll-point"/>
+    <p id="essential-section" className="scroll-point"/>
 
      <div style={{
         "width" : 50 + '%',

@@ -6,7 +6,7 @@ export default function Support() {
  return (
    <div className="section">
     
-    <p id="support-section" class="scroll-point"/>
+    <p id="support-section" className="scroll-point"/>
 
      <div style={{
         "width" : 50 + '%',

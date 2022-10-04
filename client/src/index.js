@@ -1,11 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import App from "./App";
 import Forum from "./Forum";
 import Home from "./Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-ReactDOM.render(
+var ReactDOM = require('react-dom/client');
+
+const container = document.getElementById("root");
+const root = ReactDOM.createRoot(container);
+
+root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
@@ -15,6 +19,5 @@ ReactDOM.render(
         </Route>
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );

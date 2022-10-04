@@ -6,7 +6,7 @@ export default function Welcome() {
  return (
    <div className="section">
     
-    <p id="welcome-section" class="scroll-point"/>
+    <p id="welcome-section" className="scroll-point"/>
 
      <div style={{
         "width" : 50 + '%',
