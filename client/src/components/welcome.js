@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import logo from '../assets/hackzona-logo.jpeg'
+import logo from '../assets/HackArizona_logo-400x400.png'
  
 export default function Welcome() {
  return (
@@ -12,7 +12,7 @@ export default function Welcome() {
         "width" : 50 + '%',
         "float": "left"
      }}>
-       <h1>Welcome to HackZona!</h1>
+       <h1>Welcome to HackAZ!</h1>
        <p>We are a hack-a-thon coming to Tucson, Arizona!</p>
      </div>
      
@@ -21,7 +21,7 @@ export default function Welcome() {
         "width" : 45 + '%',
         "marginLeft" : 5,
         "float": "right"
-        }} src={logo} alt="HackZona Logo"></img>
+        }} src={logo} alt="HackAZ Logo"></img>
    </div>
  );
 }

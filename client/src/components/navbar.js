@@ -13,7 +13,7 @@ export default function Navbar() {
      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" >
 
        <NavLink className="navbar-brand" to="/">
-       HackZona
+       HackAZ
        </NavLink>
        
        <button

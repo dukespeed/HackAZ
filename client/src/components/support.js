@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import logo from '../assets/hackzona-logo.jpeg'
+import logo from '../assets/HackArizona_logo-400x400.png'
  
 export default function Support() {
  return (
@@ -16,7 +16,7 @@ export default function Support() {
      <p>We are a hack-a-thon coming to Tucson, Arizona!</p>
      </div>
      
-     <img src={logo} alt="HackZona Logo" style={{
+     <img src={logo} alt="HackAZ Logo" style={{
         "width" : 45 + '%',
         "float": "left"
         }} 
